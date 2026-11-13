@@ -109,12 +109,6 @@ Une ligne par objet sorti : n° de bordereau, date de sortie, responsable, group
 | Préfixe des bordereaux | Constante `PREFIXE_NUM` en haut de `BordereauScout` |
 | Mot de passe de la feuille Data | Constante `MOT_DE_PASSE` en haut de `ProtectionData` |
 
-## Limites connues
-
-- Le mot de passe de la feuille Data est stocké en clair dans le code : c'est une protection contre les erreurs de manipulation, pas une sécurité. Pour empêcher sa lecture, verrouiller le projet VBA (Outils > Propriétés de VBAProject > Protection).
-- Les indicateurs lisent les 2 000 premières lignes de la feuille Prets.
-- L'application est prévue pour un seul utilisateur à la fois (pas de co-édition).
-- Le PDF est enregistré dans le dossier du classeur ; si celui-ci est sur OneDrive ou SharePoint, il est enregistré dans le dossier Documents.
 
 ## Documentation utilisateur
 
